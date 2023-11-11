@@ -24,7 +24,8 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Game has ended");
 
-        Time.timeScale = 0.0f;
+        //Time.timeScale = 0.0f;
+        Cursor.visible = true;
         gameUI.ShowGameOverPanel(hasWon);
     }
 
