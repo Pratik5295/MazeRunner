@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccf2d78a65e57a2408cb3bd2c02a400f, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  width: 50
+  height: 50
+  floorPrefab: {fileID: 1615671689702325142, guid: 916108f04e005074da29ab003e7674f2,
+    type: 3}
+  wallPrefab: {fileID: 5385742087440013926, guid: 9c7faca29775fba4f93a349cfbce1435,
+    type: 3}
+  trapPrefab: {fileID: 2237994174913417390, guid: 5fb149443b6e2474d85a968a5136678b,
+    type: 3}
+  enemyPrefab: {fileID: 7825910424013491991, guid: f2041b22637819544b3220c3627f2531,
+    type: 3}
+  keyPrefab: {fileID: 2463431534304946361, guid: 0ff84f37a3b5e914290779e43937ca0f,
+    type: 3}
+  roomPrefab: {fileID: 2161866612020072830, guid: b6fb7c68824e3c74f81cb0c8e512fad8,
+    type: 3}
+  trophyPrefab: {fileID: 920021664964125190, guid: 8045ce4c4cb0b924087f5ddedb328f41,
+    type: 3}
+  numberOfTraps: 2
+  numberOfEnemies: 3
