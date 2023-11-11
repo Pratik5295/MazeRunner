@@ -310,7 +310,7 @@ public class MazeGenerator : EditorWindow
         var trophyCell = walkableCells[randomCell];
 
         GameObject trophy = Instantiate(trophyPrefab,
-         new Vector3(trophyCell.transform.position.x, 1f, trophyCell.transform.position.z),
+         new Vector3(trophyCell.transform.position.x, 0.5f, trophyCell.transform.position.z),
          Quaternion.identity) as GameObject;
 
         trophy.transform.SetParent(propsObject.transform);
@@ -414,7 +414,7 @@ public class MazeGenerator : EditorWindow
                 var trapCell = walkableCells[randomCell];
 
                 GameObject trap = Instantiate(trapPrefab,
-                 new Vector3(trapCell.transform.position.x, 1f, trapCell.transform.position.z),
+                 new Vector3(trapCell.transform.position.x, 0.3f, trapCell.transform.position.z),
                  Quaternion.identity) as GameObject;
 
                 trap.transform.SetParent(propsObject.transform);
@@ -649,13 +649,13 @@ public class MazeGenerator : EditorWindow
     /// </summary>
     private void HandleMazeNavigation()
     {
-        GameObjectUtility.SetStaticEditorFlags(mazeObject, StaticEditorFlags.NavigationStatic);
+        //GameObjectUtility.SetStaticEditorFlags(mazeObject, StaticEditorFlags.NavigationStatic);
         
 
-        foreach(var cell in walkableCells)
-        {
-            GameObjectUtility.SetStaticEditorFlags(cell, StaticEditorFlags.NavigationStatic);
-        }
+        //foreach(var cell in walkableCells)
+        //{
+        //    GameObjectUtility.SetStaticEditorFlags(cell, StaticEditorFlags.NavigationStatic);
+        //}
         //NavMeshSurface navMeshSurface = mazeObject.AddComponent<NavMeshSurface>();
 
         //navMeshSurface.BuildNavMesh();

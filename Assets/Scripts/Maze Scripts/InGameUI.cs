@@ -17,6 +17,8 @@ public class InGameUI : MonoBehaviour
         if(PlayerHealthSystem.instance != null)
         {
            PlayerHealthSystem.instance.OnHealthUpdatedEvent += UpdateScoreText;
+
+            UpdateScoreText(PlayerHealthSystem.instance.GetHealth());
         }
     }
 

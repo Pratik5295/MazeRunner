@@ -23,6 +23,11 @@ public class PlayerHealthSystem : MonoBehaviour
         }
     }
 
+    public int GetHealth()
+    {
+        return health;
+    }
+
     public void Start()
     {
         health = mazeGeneratorData.numberOfTraps;
