@@ -1,6 +1,6 @@
 Instructions to use the Maze Generator:
 
-1] Create a Maze Generator Data scriptable object and enter the fields of data(These prefabs will be used as templates to generate the maze). Right click in Assets-> Create -> 
+1] Create a Maze Generator Data scriptable object and enter the fields of data(These prefabs will be used as templates to generate the maze). Right click in Assets-> Create -> Maze Generator Data
 2] Populating the trophy prefab has been deactivated for now, as for the game's sense, the trophy was placed inside the room to add challenge to the player.
 3] After the creation of Maze Generator data File, from the File Menu select Custom Tools -> Maze Generator to open the tool. 
 4] Add the Maze Generator Data file to the tool and hit on create. 
